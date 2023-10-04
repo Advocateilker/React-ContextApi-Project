@@ -12,7 +12,7 @@ const BasketPage = () => {
 
             {context.basket.length === 0 && <h3 className='text-center my-5'>Please add several items to the cart</h3>}
 
-            {context.basket.length > 0 && <h3 >TOPLAM: $ {total}</h3> }
+            {context.basket.length > 0 && <h3 >TOTAL: $ {total}</h3> }
             {context.basket?.map((i)=>(
                 <div key={i.id} className='d-flex border justify-content-between align-items-center gap-1 p-3'>
                     <img width={100} height={100}src={i.thumbnail} className="object-fit-contain rounded" />
