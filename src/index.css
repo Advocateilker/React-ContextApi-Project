@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+
+}
+
+body{
+  background-color: rgb(66, 70, 82);
+
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.private img{
+  width: 100%;
+  max-height: 100px;
+  object-fit: cover;
+}
